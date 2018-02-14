@@ -1,0 +1,7 @@
+######Replace x.x.x.x with your Web Server,DBIndexer Server IP and Publisher IP.############
+WEBSERVERIP=x.x.x.x
+DBINDEXERIP=x.x.x.x
+PUBLISHERIP=x.x.x.x
+
+
+

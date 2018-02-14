@@ -1,0 +1,1 @@
+rm -rf /var/lib/tomcat7/work/* /var/lib/tomcat7/temp/* /var/lib/tomcat7/logs/* /var/log/smartDocs/* > /var/log/nginx/ssl-error.log > /var/log/nginx/access.log > /var/log/nginx/error.log > /var/log/nginx/ssl-access.log

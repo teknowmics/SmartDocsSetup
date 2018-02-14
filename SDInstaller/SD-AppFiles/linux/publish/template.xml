@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+<properties>
+	<entry key="word.command">java -cp "/data/publish/AnalyzerMain-6.3-jar-with-dependencies.jar:/data/publish/lib/aws-s3-1.9.1.jar:/data/publish/lib/swift-1.9.1.jar:/data/publish/lib/s3-1.9.1.jar:/data/publish/lib/filesystem-1.9.1.jar:" com.teknowmics.analyzermain.AnalyzerMain</entry>
+	<entry key="excel.command">java -cp "/data/publish/AnalyzerMain-6.3-jar-with-dependencies.jar:/data/publish/lib/aws-s3-1.9.1.jar:/data/publish/lib/swift-1.9.1.jar:/data/publish/lib/s3-1.9.1.jar:/data/publish/lib/filesystem-1.9.1.jar:" com.teknowmics.analyzermain.AnalyzerMain</entry>
+	<entry key="pdf.command">java -cp "/data/publish/AnalyzerMain-6.3-jar-with-dependencies.jar:/data/publish/lib/aws-s3-1.9.1.jar:/data/publish/lib/swift-1.9.1.jar:/data/publish/lib/s3-1.9.1.jar:/data/publish/lib/filesystem-1.9.1.jar:" com.teknowmics.analyzermain.AnalyzerMain</entry>
+	<entry key="cad.command">java -cp "/data/publish/AnalyzerMain-6.3-jar-with-dependencies.jar:/data/publish/lib/aws-s3-1.9.1.jar:/data/publish/lib/swift-1.9.1.jar:/data/publish/lib/s3-1.9.1.jar:/data/publish/lib/filesystem-1.9.1.jar:" com.teknowmics.analyzermain.AnalyzerMain</entry>
+	<entry key="powerpoint.command">java -cp "/data/publish/AnalyzerMain-6.3-jar-with-dependencies.jar:/data/publish/lib/aws-s3-1.9.1.jar:/data/publish/lib/swift-1.9.1.jar:/data/publish/lib/s3-1.9.1.jar:/data/publish/lib/filesystem-1.9.1.jar:" com.teknowmics.analyzermain.AnalyzerMain</entry>
+	
+	
+	<entry key="image.command">java -cp "/data/publish/AnalyzerMain-6.3-jar-with-dependencies.jar:/data/publish/lib/aws-s3-1.9.1.jar:/data/publish/lib/swift-1.9.1.jar:/data/publish/lib/s3-1.9.1.jar:/data/publish/lib/filesystem-1.9.1.jar:" com.teknowmics.analyzermain.AnalyzerMain</entry>
+
+	<entry key="database.host">127.0.0.1</entry>
+	<entry key="database.username">smartdocs</entry>
+	<entry key="database.password">smartdocs</entry>
+	<entry key="database.port">3306</entry>
+
+	<entry key="rmq.uri">amqp://smartdocs:smartdocs@127.0.0.1:5672/sdrmq</entry>
+	<entry key="database.name">DB_NAME</entry>
+
+	<entry key="rmq.suffix.backup">backup</entry>
+	<entry key="rmq.suffix.project">project</entry>
+	<entry key="rmq.suffix.myfiles">myfiles</entry>
+	<entry key="rmq.suffix.share">share</entry>
+	<entry key="rmq.suffix.department">department</entry>
+	<entry key="rmq.suffix.image">image</entry>
+
+	<entry key="republish">republish</entry>
+	<entry key="metadata">metadata</entry>
+	<entry key="publisher.path">/data/publish</entry>
+	<entry key="indexer.path">/data/publish</entry>
+	<entry key="document.text.path">/data/publish_data/DB_NAME/temp_bkp</entry>
+	<entry key="project.text.path">/data/publish_data/DB_NAME/temp_proj</entry>
+	<entry key="myfile.text.path">/data/publish_data/DB_NAME/temp_myfile</entry>
+	<entry key="share.text.path">/data/publish_data/DB_NAME/temp_share</entry>
+	<entry key="department.text.path">/data/publish_data/DB_NAME/temp_dept</entry>
+	<entry key="text.path">/data/publish_data/DB_NAME/temp_bkp</entry>
+
+	<entry key="log.path">/data/publish_data/DB_NAME/logs/</entry>
+
+	<entry key="file.path">/data/sd_data/</entry>
+
+	<entry key="log.level">0</entry>
+	
+	<entry key="excel.maxhtml.size">15728640</entry>
+
+	<entry key="imagick.path">/usr/bin</entry>
+</properties>

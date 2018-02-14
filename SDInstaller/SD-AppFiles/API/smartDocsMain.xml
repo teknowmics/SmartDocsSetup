@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+	<entry key="smartdocs.datasource.driver_class">com.mysql.jdbc.Driver</entry>
+    <entry key="smartdocs.datasource.jdbc_url">jdbc:mysql:loadbalance://dbindexerip:3306?loadBalanceBlacklistTimeout=2000&amp;useUnicode=true&amp;characterEncoding=utf-8</entry>
+
+	<entry key="database.username">smartdocs</entry>
+	<entry key="database.password">smartdocs</entry>
+
+	<entry key="main.app.base.url"/>
+	<!-- Config parameter to identify production or testing server... -->
+    <entry key="sd.production.mode">FALSE</entry>
+	<!--RabbitMQ Config details -->
+	<entry key="rabitmq.address">dbindexerip</entry> 
+	<entry key="rabitmq.port">5672</entry>
+	<entry key="rabitmq.userName">smartdocs</entry>
+	<entry key="rabitmq.password">smartdocs</entry>
+	<entry key="rabitmq.virtualHost">sdrmq</entry>
+
+	<!--Mem cach sever config details... -->
+	<entry key="mem.cach.conn.details">webip:11211</entry>
+	
+	<!-- Solr Default collection name -->
+    <entry key="solr.default.collection.name">collection_sd_build</entry>
+
+	<!--Datasource default settings-->
+	<entry key="smartdocs.datasource.acquireRetryAttempts">10</entry>
+	<entry key="smartdocs.datasource.minPoolSize">2</entry>
+	<entry key="smartdocs.datasource.maxPoolSize">100</entry>
+	<entry key="smartdocs.datasource.initialPoolSize">2</entry>
+	<entry key="smartdocs.datasource.maxIdleTime">21600</entry>
+	<entry key="smartdocs.datasource.maxIdleTimeExcessConnections">10</entry>
+	<entry key="smartdocs.datasource.idleConnectionTestPeriod">3600</entry>
+	<entry key="smartdocs.datasource.maxStatements">0</entry>
+	<entry key="smartdocs.datasource.maxStatementsPerConnection">0</entry>
+	<entry key="smartdocs.datasource.numHelperThreads">6</entry>
+	<entry key="sd.user.workflowLink">/index.html#my-workflow?mode=workflow&amp;</entry>
+	<entry key="sd.user.reminderLink">/index.html#reminder?mode=reminder&amp;</entry>
+	<entry key="sd.internalUser.shareLink">/redirectToDevices.html?mode=internal&amp;</entry>
+	<entry key="sd.externalUser.shareLink">/redirectToDevices.html?</entry>
+	<entry key="sd.user.distributionLink">/redirectToDevices.html?mode=distribution&amp;</entry>
+	<entry key="sd.publicAccess.shareLink">/redirectToDevices.html?mode=public&amp;</entry>
+    <entry key="smartdocs.log4j.properties">/etc/smartdocs/log4j.properties</entry>
+	<entry key="document.max.size">10737418240</entry>
+	<entry key="smartdocs.sub_folder.download_max_size">5368709120</entry>
+	<entry key="max.advancedProperty.count">20</entry>
+</properties>
